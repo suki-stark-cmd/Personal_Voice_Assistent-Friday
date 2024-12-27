@@ -4,29 +4,7 @@ import json
 import os
 import shutil
 import smtplib,ssl,csv
-import subprocess
-import time
-from tkinter import Frame
-from turtle import speed
-import turtle
-import webbrowser
-from cv2 import VideoCapture
-from ecapture import ecapture as ec
-from urllib.request import urlopen
 
-from newsapi import NewsApiClient
-from numpy import true_divide
-import pyjokes
-import pyttsx3
-import requests
-import speech_recognition as sr
-import wikipedia
-import winshell
-import wolframalpha
-from twilio.rest import Client
-import cv2
-import requests,json
-import pygame
 from translate import Translator
 
 engine = pyttsx3.init('sapi5')
